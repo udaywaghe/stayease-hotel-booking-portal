@@ -12,7 +12,12 @@ StayEase is a full-stack hotel discovery and booking application with a conversa
 
 ## Screenshots
 
-The `screenshots/` folder contains screenshots of the running app and assistant entry point.
+The `screenshots/` folder contains the running app, assistant, and end-to-end booking examples:
+
+- `booking-form.png` and `booking-confirmation.png` show a completed reservation.
+- `cancellation-review.png` and `cancellation-confirmed.png` show retrieving and cancelling it.
+
+The booking/cancellation examples use the dummy guest `StayEase Demo Guest` and `stayease-demo@example.test`. The reservation was cancelled after capture; no email was sent.
 
 ## Prerequisites
 
