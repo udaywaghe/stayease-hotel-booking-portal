@@ -1,0 +1,16 @@
+# Secrets and local configuration
+backend/.env
+react-project/.env
+*.local
+
+# Generated build output
+backend/target/
+react-project/node_modules/
+react-project/dist/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

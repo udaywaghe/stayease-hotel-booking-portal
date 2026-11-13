@@ -1,0 +1,10 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import HotelListing from './pages/HotelListing'
+import HotelDetails from './pages/HotelDetails'
+import Booking from './pages/Booking'
+import BookingConfirmation from './pages/BookingConfirmation'
+import ManageBooking from './pages/ManageBooking'
+import Assistant from './pages/Assistant'
+import { AssistantLauncher } from './components/Layout'
+export default function App(){return <BrowserRouter><Routes><Route path="/" element={<Home/>}/><Route path="/hotels" element={<HotelListing/>}/><Route path="/hotels/:id" element={<HotelDetails/>}/><Route path="/booking/:id" element={<Booking/>}/><Route path="/confirmation" element={<BookingConfirmation/>}/><Route path="/manage" element={<ManageBooking/>}/><Route path="/assistant" element={<Assistant/>}/><Route path="*" element={<Home/>}/></Routes><AssistantLauncher/></BrowserRouter>}
